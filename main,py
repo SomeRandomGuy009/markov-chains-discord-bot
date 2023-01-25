@@ -1,5 +1,6 @@
 import discord
 import markovify
+import os
 intents = discord.Intents.all()
 client = discord.Client(intents=intents)
 
@@ -15,4 +16,4 @@ async def on_message(message):
         response = model.make_sentence()
         await message.channel.send(response)
 
-client.run("YOUR_TOKEN")
+client.run(os.getenv(token))
