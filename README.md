@@ -1,7 +1,7 @@
 # markov-chains-github
 A simple discord bot that uses past channel messages and markov chains to generate random messages which sometimes makes sense and sometimes funny.
 
-#How does it work?
+# How does it work?
 The bot listens for it's own mention and when it receives it, it retrieves the past 1500 messages (no bot message or link) and trains a markov chain model on the messages and generates a response using it.
 
 # Getting Started
