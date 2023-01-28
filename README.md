@@ -1,4 +1,4 @@
-# markov-chains-github
+# markov-chains-discord
 A simple discord bot that uses past channel messages and markov chains to generate random messages which sometimes makes sense and sometimes funny.
 
 # How does it work?
